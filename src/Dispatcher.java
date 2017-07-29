@@ -31,9 +31,7 @@ public class Dispatcher implements Runnable {
                 output.flush();
                 input = new ObjectInputStream(connection.getInputStream());
 
-
                 sendData(scanner.nextLine());
-
 
                 System.out.println(input.readObject());
             }
