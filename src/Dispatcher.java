@@ -25,7 +25,7 @@ public class Dispatcher implements Runnable {
                 connection = new Socket(InetAddress.getByName("127.0.0.1"), 6666);
 
 //                TODO: Connection by external IP
-//                connection = new Socket(InetAddress.getByName("10.1.1.104"), 6666);
+//                connection = new Socket(InetAddress.getByName("91.243.199.142"), 6666);
 
                 output = new ObjectOutputStream(connection.getOutputStream());
                 output.flush();
